@@ -1,0 +1,1978 @@
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/app/page.tsx:6:1
+Export ArrowsHorizontal doesn't exist in target module
+   4 | import { Card, CardContent } from '@/components/ui/card';
+   5 | import { Badge } from '@/components/ui/badge';
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^^^^^
+>  8 |   FileDown,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   Sparkles,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   Workflow,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   Zap,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 |   MonitorSmartphone,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import ResizerTool from '@/components/tools/resizer';
+  15 | import QualityTool from '@/components/tools/quality';
+  16 | import EnhancerTool from '@/components/tools/enhancer';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/workflow/workflow-builder.tsx:26:1
+Export ArrowsHorizontal doesn't exist in target module
+  24 |   DialogTrigger,
+  25 | } from '@/components/ui/dialog';
+> 26 | import {
+     | ^^^^^^^^
+> 27 |   GripVertical,
+     | ^^^^^^^^^^^^^^^
+> 28 |   Plus,
+     | ^^^^^^^^^^^^^^^
+> 29 |   Trash2,
+     | ^^^^^^^^^^^^^^^
+> 30 |   Play,
+     | ^^^^^^^^^^^^^^^
+> 31 |   Download,
+     | ^^^^^^^^^^^^^^^
+> 32 |   FolderOpen,
+     | ^^^^^^^^^^^^^^^
+> 33 |   X,
+     | ^^^^^^^^^^^^^^^
+> 34 |   ChevronDown,
+     | ^^^^^^^^^^^^^^^
+> 35 |   ChevronUp,
+     | ^^^^^^^^^^^^^^^
+> 36 |   ImageIcon,
+     | ^^^^^^^^^^^^^^^
+> 37 |   CheckCircle2,
+     | ^^^^^^^^^^^^^^^
+> 38 |   AlertCircle,
+     | ^^^^^^^^^^^^^^^
+> 39 |   Loader2,
+     | ^^^^^^^^^^^^^^^
+> 40 |   ArrowsHorizontal,
+     | ^^^^^^^^^^^^^^^
+> 41 |   Zap,
+     | ^^^^^^^^^^^^^^^
+> 42 |   FileDown,
+     | ^^^^^^^^^^^^^^^
+> 43 |   Sparkles,
+     | ^^^^^^^^^^^^^^^
+> 44 | } from 'lucide-react';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  45 | import DropZone from '@/components/dropzone';
+  46 | import { resizeImage, decreaseQuality, enhanceImage, canvasToBlob, getMimeTypeExt, formatFileSize } from '@/lib/image-utils';
+  47 | import { saveToDirectory, downloadBlob, isFileSystemAccessSupported } from '@/lib/storage';
+
+The export ArrowsHorizontal was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import MoreHorizontal?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/workflow/workflow-builder.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/workflow/workflow-builder.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[clear] console.clear
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/resizer.tsx:27:1
+Export getMimeTypeExt doesn't exist in target module
+  25 |   canvasToBlob,
+  26 | } from '@/lib/image-utils';
+> 27 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | import {
+  29 |   ResizeSettings,
+  30 |   ProcessedImage,
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/resizer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/resizer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/quality.tsx:19:1
+Export getMimeTypeExt doesn't exist in target module
+  17 | import DropZone from '@/components/dropzone';
+  18 | import { decreaseQuality, blobToPreview, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 19 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { QualitySettings, ProcessedImage, DEFAULT_QUALITY_SETTINGS } from '@/lib/types';
+  21 |
+  22 | interface QualityToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/quality.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/quality.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[clear] console.clear
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-client] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[error] ./src/components/tools/enhancer.tsx:12:1
+Export getMimeTypeExt doesn't exist in target module
+  10 | import DropZone from '@/components/dropzone';
+  11 | import { enhanceImage, getImageDimensions, formatFileSize } from '@/lib/image-utils';
+> 12 | import { downloadBlob, getMimeTypeExt } from '@/lib/storage';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import { EnhanceSettings, ProcessedImage, DEFAULT_ENHANCE_SETTINGS } from '@/lib/types';
+  14 |
+  15 | interface EnhancerToolProps {
+
+The export getMimeTypeExt was not found in module [project]/src/lib/storage.ts [app-ssr] (ecmascript).
+Did you mean to import isFileSystemAccessSupported?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/tools/enhancer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/tools/enhancer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[log] [Fast Refresh] rebuilding
+[warning] [Fast Refresh] performing full reload because your application had an unrecoverable error
+[warning] [Fast Refresh] performing full reload because your application had an unrecoverable error
+[clear] console.clear
+[log] [Fast Refresh] done in 189ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 119ms
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 152ms
+[warning] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
